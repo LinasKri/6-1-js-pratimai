@@ -45,23 +45,23 @@ console.log('-------------------------')
 
 //1//
 
-const suma = pirmasSkaicius + antrasSkaicius + treciaSkaicius;
-console.log(suma);
+const suma =  + pirmasSkaicius + antrasSkaicius + treciaSkaicius;
+console.log('Suma:', suma);
 
 //2//
 const zodziuJunginys = pirmasZodis+ ' ' + antrasZodis + ' ' + treciasZodis;
-console.log(zodziuJunginys);
+console.log('Zodziu junginys:', zodziuJunginys);
 
 //3//
 const skaiciuVerte1 = skaiciai1[0] - skaiciai1[1] + skaiciai1[2] - skaiciai1[3] + skaiciai1[4];
-console.log(skaiciuVerte1);
+console.log('Pirmoji verte:', skaiciuVerte1);
 
 const skaiciuVerte2 = skaiciai2[0] - skaiciai2[1] + skaiciai2[2] - skaiciai2[3] + skaiciai2[4];
-console.log(skaiciuVerte2);
+console.log('Antroji verte:', skaiciuVerte2);
 
 
 const skaiciuVerte3 = skaiciai3[0] - skaiciai3[1] + skaiciai3[2] - skaiciai3[3] + skaiciai3[4];
-console.log(skaiciuVerte3);
+console.log('Trecioji verte:', skaiciuVerte3);
 
 //4//
 
