@@ -74,3 +74,4 @@ console.log(sujungtasSarasas);
 
 //KINTAMUJU PALYGINIMAS//
 
+//1//
