@@ -72,6 +72,8 @@ const raidziuJunginys3 = raides3[0] + raides3[1] + raides3[2] + raides3[3] + rai
 const sujungtasSarasas = raidziuJunginys3 + ', ' + raidziuJunginys2 + ', ' + raidziuJunginys1;
 console.log(sujungtasSarasas);
 
+
+console.log('-------------------------');
 //KINTAMUJU PALYGINIMAS//
 
 //1//
