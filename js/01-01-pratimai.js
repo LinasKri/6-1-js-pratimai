@@ -472,3 +472,83 @@ if (sarIlgis3 < sarIlgis1) {
 
 console.log('------------------');
 // c //
+
+if (sarIlgis1 == sarIlgis2) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);
+}
+
+if (sarIlgis2 == sarIlgis3) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);
+}
+
+if (sarIlgis3 == sarIlgis1) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);
+}
+
+console.log('------------------');
+// d //
+
+if (sarIlgis1 != sarIlgis2) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);
+}
+
+if (sarIlgis2 != sarIlgis3) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);
+}
+
+if (sarIlgis3 != sarIlgis1) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);
+}
+
+console.log('------------------');
+// e //
+
+if (sarIlgis1 >= sarIlgis2) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);
+}
+
+if (sarIlgis2 >= sarIlgis3) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);
+}
+
+if (sarIlgis3 >= sarIlgis1) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);
+}
+console.log('------------------');
+// f //
+
+if (sarIlgis1 <= sarIlgis2) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);
+}
+
+if (sarIlgis2 <= sarIlgis3) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);
+}
+
+if (sarIlgis3 <= sarIlgis1) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);
+}
