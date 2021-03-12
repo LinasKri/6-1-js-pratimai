@@ -77,3 +77,398 @@ console.log('-------------------------');
 //KINTAMUJU PALYGINIMAS//
 
 //1//
+
+const a = 3;
+const b = 15;
+const c = 10;
+const d = 7;
+const teisingai = 'Pomidoras';    
+const neteisingai = 'Bandyk dar karta';
+
+// a //
+
+if (a > b) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);    
+}
+
+if (b > c) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);    
+}
+
+if (c > d) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);    
+}
+if (d > a) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);    
+}
+
+console.log('----------------');
+// b //
+
+if (a < b) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);    
+}
+
+if (b < c) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);    
+}
+
+if (c < d) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);    
+}
+
+if (d < a) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);    
+}
+
+console.log('----------------');
+// c //
+
+if (a == b) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);    
+}
+
+if (b == c) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);    
+}
+
+if (c == d) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);    
+}
+
+if (d == a) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);    
+}
+
+console.log('------------------');
+// d //
+
+if (a != b) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);    
+}
+
+if (b != c) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);    
+}
+
+if (c != d) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);    
+}
+
+if (d != a) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);    
+}
+
+console.log('------------------');
+// e //
+
+if (a >= b) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);    
+}
+
+if (b >= c) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);    
+}
+
+if (c >= d) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);    
+}
+
+if (d >= a) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);    
+}
+
+console.log('------------------');
+// f //
+
+if (a <= b) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);    
+}
+
+if (b <= c) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);    
+}
+
+if (c <= d) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);    
+}
+
+if (d <= a) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);    
+}
+
+console.log("-------------------");
+//2//
+
+const zodis1 = 'Linas'
+const zodis2 = 'Jolanta'
+const zodis3 = 'Tankas'
+const zodis4 = 'Rimka'
+
+const ilgis1 = zodis1.length
+const ilgis2 = zodis2.length
+const ilgis3 = zodis3.length
+const ilgis4 = zodis4.length
+
+// a //
+
+if (ilgis1 > ilgis2) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);   
+} 
+
+if (ilgis2 > ilgis3) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);   
+} 
+
+if (ilgis3 > ilgis4) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);   
+} 
+
+if (ilgis4 > ilgis1) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);   
+} 
+
+console.log('--------------------');
+// b //
+
+if (ilgis1 < ilgis2) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);   
+} 
+
+if (ilgis2 < ilgis3) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);   
+} 
+
+if (ilgis3 < ilgis4) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);   
+} 
+
+if (ilgis4 < ilgis1) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);   
+} 
+
+console.log('----------------------');
+// c //
+
+if (ilgis1 == ilgis2) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);   
+} 
+
+if (ilgis2 == ilgis3) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);   
+} 
+
+if (ilgis3 == ilgis4) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);   
+} 
+
+if (ilgis4 == ilgis1) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);   
+} 
+
+console.log('-------------------');
+// d //
+
+if (ilgis1 != ilgis2) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);   
+} 
+
+if (ilgis2 != ilgis3) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);   
+} 
+
+if (ilgis3 != ilgis4) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);   
+} 
+
+if (ilgis4 != ilgis1) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);   
+} 
+
+console.log('-------------------');
+// e //
+
+if (ilgis1 >= ilgis2) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);   
+} 
+
+if (ilgis2 >= ilgis3) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);   
+} 
+
+if (ilgis3 >= ilgis4) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);   
+} 
+
+if (ilgis4 >= ilgis1) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);   
+} 
+
+console.log('-------------------');
+// f //
+
+if (ilgis1 <= ilgis2) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);   
+} 
+
+if (ilgis2 <= ilgis3) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);   
+} 
+
+if (ilgis3 <= ilgis4) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);   
+} 
+
+if (ilgis4 <= ilgis1) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);   
+} 
+
+console.log('---------------------');
+// 4 //
+
+const sar1 = [9, 7, 8, 4, 5, 6]
+const sar2 = [15, 46, 8, 96, 5, 2, 3]
+const sar3 = [31, 6, 62, 3, 16, 41]
+const sarIlgis1 = sar1.length
+const sarIlgis2 = sar2.length
+const sarIlgis3 = sar3.length
+
+// a //
+
+if (sarIlgis1 > sarIlgis2) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);
+}
+
+if (sarIlgis2 > sarIlgis3) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);
+}
+
+if (sarIlgis3 > sarIlgis1) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);
+}
+
+console.log('---------------');
+// b //
+
+if (sarIlgis1 < sarIlgis2) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);
+}
+
+if (sarIlgis2 < sarIlgis3) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);
+}
+
+if (sarIlgis3 < sarIlgis1) {
+    console.log(teisingai);
+} else {
+    console.log(neteisingai);
+}
+
+console.log('------------------');
+// c //
