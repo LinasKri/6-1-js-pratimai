@@ -19,8 +19,3 @@ if (oras === 'Šviečia saulė') {
 } else {
     console.log('Kur tu gyveni??? 🤔🤔🤔');
 }
-
-/*
-- lauke šviečia / nešviečia saulė
-- lyja / nelyja
-- stovi vilkas / jo nėra */
