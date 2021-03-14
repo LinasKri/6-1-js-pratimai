@@ -140,25 +140,25 @@ if (d < a) {
 console.log('----------------');
 // c //
 
-if (a == b) {
+if (a === b) {
     console.log(teisingai);
 } else {
     console.log(neteisingai);    
 }
 
-if (b == c) {
+if (b === c) {
     console.log(teisingai);
 } else {
     console.log(neteisingai);    
 }
 
-if (c == d) {
+if (c === d) {
     console.log(teisingai);
 } else {
     console.log(neteisingai);    
 }
 
-if (d == a) {
+if (d === a) {
     console.log(teisingai);
 } else {
     console.log(neteisingai);    
@@ -167,25 +167,25 @@ if (d == a) {
 console.log('------------------');
 // d //
 
-if (a != b) {
+if (a !== b) {
     console.log(teisingai);
 } else {
     console.log(neteisingai);    
 }
 
-if (b != c) {
+if (b !== c) {
     console.log(teisingai);
 } else {
     console.log(neteisingai);    
 }
 
-if (c != d) {
+if (c !== d) {
     console.log(teisingai);
 } else {
     console.log(neteisingai);    
 }
 
-if (d != a) {
+if (d !== a) {
     console.log(teisingai);
 } else {
     console.log(neteisingai);    
@@ -316,25 +316,25 @@ if (ilgis4 < ilgis1) {
 console.log('----------------------');
 // c //
 
-if (ilgis1 == ilgis2) {
+if (ilgis1 === ilgis2) {
     console.log(teisingai);
 } else {
     console.log(neteisingai);   
 } 
 
-if (ilgis2 == ilgis3) {
+if (ilgis2 === ilgis3) {
     console.log(teisingai);
 } else {
     console.log(neteisingai);   
 } 
 
-if (ilgis3 == ilgis4) {
+if (ilgis3 === ilgis4) {
     console.log(teisingai);
 } else {
     console.log(neteisingai);   
 } 
 
-if (ilgis4 == ilgis1) {
+if (ilgis4 === ilgis1) {
     console.log(teisingai);
 } else {
     console.log(neteisingai);   
@@ -343,25 +343,25 @@ if (ilgis4 == ilgis1) {
 console.log('-------------------');
 // d //
 
-if (ilgis1 != ilgis2) {
+if (ilgis1 !== ilgis2) {
     console.log(teisingai);
 } else {
     console.log(neteisingai);   
 } 
 
-if (ilgis2 != ilgis3) {
+if (ilgis2 !== ilgis3) {
     console.log(teisingai);
 } else {
     console.log(neteisingai);   
 } 
 
-if (ilgis3 != ilgis4) {
+if (ilgis3 !== ilgis4) {
     console.log(teisingai);
 } else {
     console.log(neteisingai);   
 } 
 
-if (ilgis4 != ilgis1) {
+if (ilgis4 !== ilgis1) {
     console.log(teisingai);
 } else {
     console.log(neteisingai);   
@@ -477,19 +477,19 @@ if (sarIlgis3 < sarIlgis1) {
 console.log('------------------');
 // c //
 
-if (sarIlgis1 == sarIlgis2) {
+if (sarIlgis1 === sarIlgis2) {
     console.log(teisingai);
 } else {
     console.log(neteisingai);
 }
 
-if (sarIlgis2 == sarIlgis3) {
+if (sarIlgis2 === sarIlgis3) {
     console.log(teisingai);
 } else {
     console.log(neteisingai);
 }
 
-if (sarIlgis3 == sarIlgis1) {
+if (sarIlgis3 === sarIlgis1) {
     console.log(teisingai);
 } else {
     console.log(neteisingai);
@@ -498,19 +498,19 @@ if (sarIlgis3 == sarIlgis1) {
 console.log('------------------');
 // d //
 
-if (sarIlgis1 != sarIlgis2) {
+if (sarIlgis1 !== sarIlgis2) {
     console.log(teisingai);
 } else {
     console.log(neteisingai);
 }
 
-if (sarIlgis2 != sarIlgis3) {
+if (sarIlgis2 !== sarIlgis3) {
     console.log(teisingai);
 } else {
     console.log(neteisingai);
 }
 
-if (sarIlgis3 != sarIlgis1) {
+if (sarIlgis3 !== sarIlgis1) {
     console.log(teisingai);
 } else {
     console.log(neteisingai);
