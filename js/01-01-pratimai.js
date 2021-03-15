@@ -556,3 +556,52 @@ if (sarIlgis3 <= sarIlgis1) {
 } else {
     console.log(neteisingai);
 }
+
+console.log('------------------');
+// CIKLO for PANAUDOJIMAS //
+
+// 1 //
+
+
+for (let i = 0; i <= 0; i++) {
+    console.log('0-0');    
+}
+
+for (let i = 0; i <= 4; i++) {
+    console.log('0-4');    
+}
+
+for (let i = 0; i <= 100; i++) {
+    console.log('0-100');    
+}
+
+for (let i = 574; i <= 815; i++) {
+    console.log('574-815');    
+}
+
+for (let i = -50; i <= 50; i++) {
+    console.log('-50-50');    
+}
+
+for (let i = -70; i <= 30; i++) {
+    console.log('-70-30');    
+}
+
+console.log('--------------------');
+// 2 //
+
+const tekstas = 'Žiema';
+
+for (let i = tekstas.length-1; i >= 0; i--) {
+    const sezonas = tekstas[i];
+    console.log(sezonas);
+}
+
+console.log('---------------------');
+
+// 3 //
+
+for (let i = 8; i <= 31; i++) {
+    console.log('8-31');
+    
+}
