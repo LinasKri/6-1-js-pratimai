@@ -601,7 +601,11 @@ console.log('---------------------');
 
 // 3 //
 
-for (let i = 8; i <= 31; i++) {
-    console.log('8-31');
+for (let i = 8; i < 31; i++) {
     
+    console.log('8-31');
 }
+
+
+    
+
