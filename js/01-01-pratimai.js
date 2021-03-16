@@ -561,31 +561,37 @@ console.log('------------------');
 // CIKLO for PANAUDOJIMAS //
 
 // 1 //
+/*
 
+0 - 4           = 10
+10 - 14         = 60
+20 - 24         = 110
+0 - 100         = 5050
+574 - 815       = labai didelis skaicius
+-50 - 50        = 0
+-70 - 30        = santykinai didelis skaicius (-2020)
+0 - 0           = 0
 
-for (let i = 0; i <= 0; i++) {
-    console.log('0-0');    
+*/
+
+const nuo = 0;
+const iki = 1000;
+let cikloSuma = 0;
+
+if (nuo <= iki) {
+    for (let i = nuo; i <= iki; i++) {
+        cikloSuma += i;    
+    }    
+} else {
+    for (let i = iki; i <= nuo; i++) {
+        cikloSuma += i;
+    }    
 }
 
-for (let i = 0; i <= 4; i++) {
-    console.log('0-4');    
-}
+const ats = `Intervale nuo ${nuo} iki ${iki} suma yra ${cikloSuma}`
+console.log(ats);
 
-for (let i = 0; i <= 100; i++) {
-    console.log('0-100');    
-}
 
-for (let i = 574; i <= 815; i++) {
-    console.log('574-815');    
-}
-
-for (let i = -50; i <= 50; i++) {
-    console.log('-50-50');    
-}
-
-for (let i = -70; i <= 30; i++) {
-    console.log('-70-30');    
-}
 
 console.log('--------------------');
 // 2 //
@@ -601,10 +607,7 @@ console.log('---------------------');
 
 // 3 //
 
-for (let i = 8; i < 31; i++) {
-    
-    console.log('8-31');
-}
+
 
 
     
