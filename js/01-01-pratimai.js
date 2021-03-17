@@ -557,55 +557,7 @@ if (sarIlgis3 <= sarIlgis1) {
     console.log(neteisingai);
 }
 
-console.log('------------------');
-// CIKLO for PANAUDOJIMAS //
 
-// 1 //
-/*
-
-0 - 4           = 10
-10 - 14         = 60
-20 - 24         = 110
-0 - 100         = 5050
-574 - 815       = labai didelis skaicius
--50 - 50        = 0
--70 - 30        = santykinai didelis skaicius (-2020)
-0 - 0           = 0
-
-*/
-
-const nuo = 0;
-const iki = 1000;
-let cikloSuma = 0;
-
-if (nuo <= iki) {
-    for (let i = nuo; i <= iki; i++) {
-        cikloSuma += i;    
-    }    
-} else {
-    for (let i = iki; i <= nuo; i++) {
-        cikloSuma += i;
-    }    
-}
-
-const ats = `Intervale nuo ${nuo} iki ${iki} suma yra ${cikloSuma}`
-console.log(ats);
-
-
-
-console.log('--------------------');
-// 2 //
-
-const tekstas = 'Žiema';
-
-for (let i = tekstas.length-1; i >= 0; i--) {
-    const sezonas = tekstas[i];
-    console.log(sezonas);
-}
-
-console.log('---------------------');
-
-// 3 //
 
 
 
