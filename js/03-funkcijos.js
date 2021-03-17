@@ -31,15 +31,15 @@ console.log(daugyba(5, -20));
 
 
 function skaitmenuKiekisSkaiciuje(a) {
-    if (!isFinite(a)) {
-        console.log('Pateikta netinkamo tipo reikšmė.');
-        return       
+    
+    if (!isFinite(a)) {        
+        return 'Pateikta netinkamo tipo reikšmė.'
     } 
-    if (typeof a === '') {
-        console.log('Pateikta netinkamo tipo reikšmė.');
-        return
-    }
-      
+    if (typeof a !== 'number') {        
+        return 'Pateikta netinkamo tipo reikšmė.'
+    } 
+     
+    return a.toString()
 }
 
 
