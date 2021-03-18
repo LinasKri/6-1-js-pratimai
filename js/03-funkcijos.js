@@ -55,3 +55,27 @@ console.log( skaitmenuKiekisSkaiciuje( 'asd' ) );
 //rezultatas: “Pateikta netinkamo tipo reikšmė.”
 console.log( skaitmenuKiekisSkaiciuje( NaN ) );
 //rezultatas: “Pateikta netinkamo tipo reikšmė.”
+
+console.log('------------------');
+   /// 4 ///  Funkcija pavadinimu “didziausiasSkaiciusSarase”
+
+   function didziausiasSkaiciusSarase(a) {
+       if (a) {   
+        return 'Pateikta netinkamo tipo reikšmė.'
+    } 
+   }
+
+console.log( didziausiasSkaiciusSarase( [ 1 ] ) );
+//rezultatas: 1
+console.log( didziausiasSkaiciusSarase( [ 1, 2, 3 ] ) );
+//rezultatas: 3
+console.log( didziausiasSkaiciusSarase( [ -5, 78, 14, 0, 18 ] ) );
+//rezultatas: 78
+console.log( didziausiasSkaiciusSarase( [ 69, 69, 69, 69, 66 ] ) );
+//rezultatas: 69
+console.log( didziausiasSkaiciusSarase( [ -1, -2, -3, -4, -5, -6, -7, -8 ] ) );
+//rezultatas: -1
+console.log( didziausiasSkaiciusSarase( 'pomidoras' ) );
+//rezultatas: “Pateikta netinkamo tipo reikšmė.”
+console.log( didziausiasSkaiciusSarase( [] ) );
+//rezultatas: “Pateiktas sąrašas negali būti tuščias.”
