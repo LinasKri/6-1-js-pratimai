@@ -39,7 +39,7 @@ function skaitmenuKiekisSkaiciuje(a) {
         return 'Pateikta netinkamo tipo reikšmė.'
     } 
      
-    return a.toString()
+    return `${a}`.length
 }
 
 
